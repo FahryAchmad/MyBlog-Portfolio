@@ -1,0 +1,42 @@
+
+/* Font-family: Poppins */
+@font-face {
+    font-family: Poppins;
+    src: url(../assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+/* Font-family: Titilium Web */
+@font-face {
+    font-family: Titilium Web;
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-SemiBold.ttf);
+}
+/* Font-family: Abel */
+@font-face {
+    font-family: Abel;
+    src: url(../assets/fonts/Abel/Abel-Regular.ttf);
+}
+/* Font-family: Anton */
+@font-face {
+    font-family: Anton;
+    src: url(../assets/fonts/Anton/Anton-Regular.ttf);
+}
+/* Font-family: Montserrat */
+@font-face {
+    font-family: Montserrat;
+    src: url(../assets/fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+/* Font-family: Josefin */
+@font-face {
+    font-family: Josefin;
+    src: url(../assets/fonts/Josefin_Sans/static/JosefinSans-Regular.ttf);
+}
+/* Font-family: Lexend */
+@font-face {
+    font-family: Lexend;
+    src: url(../assets/fonts/Lexend_Deca/static/LexendDeca-Regular.ttf);
+}
+/* Font-family: Livvic */
+@font-face {
+    font-family: Livvic;
+    src: url(../assets/fonts/Livvic/Livvic-Regular.ttf);
+}
