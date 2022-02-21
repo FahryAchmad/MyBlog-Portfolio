@@ -23,14 +23,14 @@ html, body {
     /* End Gradient Color */
 
     /* Theme Font-Family */
-    --Abel:'Abel' , sans-serif , cursive;
-    --Titilium:'Titilium' , sans-serif , cursive;
-    --Poppins:'Poppins' , sans-serif , cursive;
+    --Abel:'Abel', cursive;
+    --Titilium:'Titilium', cursive;
+    --Poppins:'Poppins', cursive;
     --Anton:'Anton', cursive;
-    --Montserrat:'Montserrat', sans-serif , cursive;
-    --Josefin:'Josefin' , sans-serif , cursive;
-    --Lexend:'Lexend' , sans-serif , cursive;
-    --Livvic:'Livvic' , sans-serif , cursive;
+    --Montserrat:'Montserrat', cursive;
+    --Josefin:'Josefin', cursive;
+    --Lexend:'Lexend', cursive;
+    --Livvic:'Livvic', cursive;
     /* End Theme Font-Family */
 
 }
@@ -596,7 +596,7 @@ footer.footer .move-up span:hover {
 
 /* Viewport less then or equal to 1130px */
 
-@media only screen and (max-width: 1130px){
+@media only screen and (max-width: 1200px){
     .site-content .post-content > .post-image .post-info {
         left: 2rem !important;
         bottom: 1.2rem !important;
@@ -610,15 +610,16 @@ footer.footer .move-up span:hover {
     .site-content .sidebar .newsletter h2 {
         font-size: 1.3rem;
         left: 1rem;
+        padding: .4rem 2.7rem;
     }
 
     .site-content .sidebar .newsletter .alert2 {
-        padding: .3rem 1rem !important;
+        padding: .4rem 1rem !important;
     }
 
     .site-content .sidebar .newsletter .input-element {
         padding: .4rem 1.2rem !important;
-        margin-bottom: .2rem;
+        margin-bottom: .1rem;
     }
 
     .site-content .sidebar .newsletter .input-message {
@@ -702,9 +703,9 @@ footer.footer .move-up span:hover {
 /* End Viewport less then or equal to 750px */
 
 
-/* Viewport less then or equal to 568px */
+/* Viewport less then or equal to 576px */
 
-@media only screen and (min-width: 576px) {
+@media only screen and (max-width: 576px) {
     main .blog {
         height: 125vh;
     }
@@ -771,52 +772,7 @@ footer.footer .move-up span:hover {
 
 }
 
-/* end Viewport less then or equal to 568px */
+/* end Viewport less then or equal to 576px */
 
-/* Viewport less then or equal to 520px */
 
-@media only screen and (max-width: 520px){
-    main .blog {
-        height: 125vh;
-    }
-
-    .site-content .post-content > .post-image .post-info {
-        display: none;
-    }
-
-    .site-content .sidebar .newsletter h2 {
-        font-size: 1.4rem;
-        padding: 0rem 7rem;
-    }
-
-    .site-content .sidebar .newsletter .alert2 {
-        padding: .3rem 1.3rem !important;
-    }
-
-    .site-content .sidebar .newsletter .send-btn {
-        padding: 1rem 9rem;
-        margin: .0rem 1.9rem;
-    }
-
-    .site-content .sidebar .newsletter .click-btn {
-        left: 7rem !important;
-        padding: .3rem .5rem;
-    }
-
-    footer.footer .container > div {
-        padding: 1rem .9rem !important;
-    }
-
-    footer .rights {
-        padding: 0 1.4rem;
-        text-align: center;
-    }
-
-    nav .toggle-collapse {
-        width: 80% !important;
-    }
-
-}
-
-/* End Viewport less then or equal to 520px */
 
