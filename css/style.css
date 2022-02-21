@@ -433,15 +433,17 @@ main .post-content .post-title a {
 .site-content .sidebar .newsletter .send-btn {
     border-radius: 0;
     padding: .8rem 35%;
-    margin: 1rem .5rem;
+    margin: 2rem .5rem;
     background: var(--sky);
 }
 
 .site-content .sidebar .newsletter .click-btn {
     border-radius: 0;
-    padding: .5rem .7rem;
-    position: relative;
-    margin: 0rem 17rem;
+    
+    font-size: .6rem;
+    padding: .3rem .3rem ;
+    margin-left: .1rem ;
+    margin: 1rem .1rem;
     background:#fd7e14;
     font-size: 13px;
     color: var(--white);
@@ -775,4 +777,123 @@ footer.footer .move-up span:hover {
 /* end Viewport less then or equal to 576px */
 
 
+@media  (min-width: 320px) {
+    .site-content .sidebar .newsletter h2 {
+        font-size: 1.3rem;
+       padding: .0rem .1rem;
+      margin: auto;
+      margin-left: 1rem;
+      text-align: center;
+    }
 
+    .site-content .sidebar .newsletter .alert2 {
+        padding: .2rem 1.2rem !important;
+       margin: auto;
+        text-align: center;
+        margin-left: .4rem;
+    }
+
+    .site-content .sidebar .newsletter .input-element {
+        padding: .3rem 1.5rem !important;
+        margin-bottom: 1rem;
+        margin: .4rem .3rem;
+    }
+
+    .site-content .sidebar .newsletter .input-message {
+        padding: 1.7rem 1.6rem;
+        margin: .5rem .3rem;
+    }
+
+    .site-content .sidebar .newsletter .send-btn {
+        border-radius: 0;
+        padding: .8rem 35%;
+        margin: auto;
+        margin-left: 1.8rem;
+        background: var(--sky);
+    }
+
+    .site-content .sidebar .newsletter .click-btn {
+        font-size: .7rem ;
+        padding: .3rem .4rem ;       
+        margin-left: 5.5rem  ;
+    }
+    
+}
+@media (min-width: 352px) and (max-width: 400px) {
+
+    .site-content .sidebar .newsletter .click-btn {
+        font-size: .6rem;
+        padding: .3rem .3rem ;
+        
+        margin-left: 7.9rem ;
+    } 
+
+}
+@media (min-width: 401px) and (max-width: 451px) {
+
+    .site-content .sidebar .newsletter .alert2 {
+        padding: .2rem 1.1rem !important;
+       margin: auto;
+        text-align: center;
+        margin-left: .3rem;
+    }
+
+    .site-content .sidebar .newsletter .click-btn {
+        font-size: .6rem;
+        padding: .3rem .3rem ;
+        
+        margin-left: 10rem ;
+    } 
+
+}
+@media (min-width: 452px) and (max-width: 540px) {
+
+    .site-content .sidebar .newsletter h2 {
+        font-size: 1.3rem;
+       padding: .0rem .1rem;
+      margin: auto;
+      margin-left: .1rem;
+      
+    }
+
+    .site-content .sidebar .newsletter .alert2 {
+        padding: .2rem 1rem !important;
+       margin: auto;
+        text-align: center;
+        margin-left: .4rem;
+    }
+
+    .site-content .sidebar .newsletter .click-btn {
+        font-size: .6rem;
+        padding: .3rem .3rem ;
+        
+        margin-left: 13.5rem ;
+    } 
+
+}
+
+@media (min-width: 541px) and (max-width: 576px) {
+
+    .site-content .sidebar .newsletter h2 {
+        font-size: 1.3rem;
+       padding: .0rem .1rem;
+      margin: auto;
+      margin-left: .1rem;
+      
+    }
+
+    .site-content .sidebar .newsletter .alert2 {
+        padding: .2rem .9rem !important;
+       margin: auto;
+        text-align: center;
+        margin-left: .4rem;
+    }
+
+    .site-content .sidebar .newsletter .click-btn {
+        font-size: .6rem;
+        padding: .3rem .3rem ;
+        
+        margin-left: 16rem ;
+    } 
+
+}
