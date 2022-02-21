@@ -23,14 +23,14 @@ html, body {
     /* End Gradient Color */
 
     /* Theme Font-Family */
-    --Abel:'Abel', cursive;
-    --Titilium:'Titilium', cursive;
-    --Poppins:'Poppins', cursive;
-    --Anton:'Anton', cursive;
-    --Montserrat:'Montserrat', cursive;
-    --Josefin:'Josefin', cursive;
-    --Lexend:'Lexend', cursive;
-    --Livvic:'Livvic', cursive;
+    --Abel:'Abel';
+    --Titilium:'Titilium';
+    --Poppins:'Poppins';
+    --Anton:'Anton';
+    --Montserrat:'Montserrat';
+    --Josefin:'Josefin';
+    --Lexend:'Lexend';
+    --Livvic:'Livvic';
     /* End Theme Font-Family */
 
 }
