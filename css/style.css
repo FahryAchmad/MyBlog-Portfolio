@@ -445,6 +445,7 @@ main .post-content .post-title a {
     background:#fd7e14;
     font-size: 13px;
     color: var(--white);
+    display: none;
 }
 
 .site-content .sidebar .newsletter .loading-dots {
