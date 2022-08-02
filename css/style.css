@@ -217,9 +217,9 @@ main .blog {
     background: url(../assets/Abract01.png);
     background-repeat: no-repeat;
     background-position: right;
-    height: 90vh;
+    height: 80vh;
     width: 100%;
-    background-size: 80%;
+    background-size: 60%;
 }
 
 main .blog .blog-post {
