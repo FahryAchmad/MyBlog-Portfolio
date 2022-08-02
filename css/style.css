@@ -223,7 +223,7 @@ main .blog {
 }
 
 main .blog .blog-post {
-    padding-top: 10rem;
+    padding-top: 4rem;
 }
 
 main .blog-post .blog-content {
@@ -231,7 +231,7 @@ main .blog-post .blog-content {
     flex-direction: column;
     text-align: center;
     width: 80%;
-    margin: 3rem 2rem;
+    margin: 2rem 2rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
 }
 
